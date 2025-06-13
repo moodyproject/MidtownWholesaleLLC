@@ -18,18 +18,6 @@ This website showcases Midtown Wholesale LLC's services, company values, and con
 - **Slider:** Swiper.js
 - **Language:** JavaScript (no TypeScript)
 
-## Features
-
-- 🎨 Modern, responsive design using brand color palette
-- 📱 Mobile-first responsive layout
-- 🎠 Hero image slider with autoplay
-- 📄 Multi-page navigation (Home, About, Services, Contact)
-- 📋 Interactive FAQ accordion
-- 🗺️ Embedded Google Maps for location
-- ✉️ Direct mailto and tel links for contact
-- 🎭 Smooth scroll animations and transitions
-- 🧭 Smart navbar that hides on scroll down, shows on scroll up
-
 ## Brand Colors
 
 - **Purple:** #B1A3BC
