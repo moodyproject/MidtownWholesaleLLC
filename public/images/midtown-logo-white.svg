@@ -1,0 +1,72 @@
+<svg viewBox="0 0 200 200" xmlns="http://www.w3.org/2000/svg">
+  <!-- Outer circle -->
+  <circle cx="100" cy="100" r="95" fill="none" stroke="white" stroke-width="6"/>
+  
+  <!-- Inner circle -->
+  <circle cx="100" cy="100" r="85" fill="none" stroke="white" stroke-width="3"/>
+  
+  <!-- Top text: MIDTOWN -->
+  <path id="topCircle" d="M 30 100 A 70 70 0 0 1 170 100" fill="none"/>
+  <text font-family="Arial, sans-serif" font-size="14" font-weight="bold" fill="white">
+    <textPath href="#topCircle" startOffset="50%" text-anchor="middle">MIDTOWN</textPath>
+  </text>
+  
+  <!-- Bottom text: MILWAUKEE -->
+  <path id="bottomCircle" d="M 170 100 A 70 70 0 0 1 30 100" fill="none"/>
+  <text font-family="Arial, sans-serif" font-size="12" font-weight="bold" fill="white">
+    <textPath href="#bottomCircle" startOffset="50%" text-anchor="middle">MILWAUKEE</textPath>
+  </text>
+  
+  <!-- Left side text: WHOLE -->
+  <text x="25" y="90" font-family="Arial, sans-serif" font-size="10" font-weight="bold" fill="white" transform="rotate(-90, 25, 90)" text-anchor="middle">WHOLE</text>
+  <text x="25" y="110" font-family="Arial, sans-serif" font-size="10" font-weight="bold" fill="white" transform="rotate(-90, 25, 110)" text-anchor="middle">SALE</text>
+  
+  <!-- Right side text: LLC -->
+  <text x="175" y="100" font-family="Arial, sans-serif" font-size="12" font-weight="bold" fill="white" transform="rotate(90, 175, 100)" text-anchor="middle">LLC</text>
+  
+  <!-- Left star -->
+  <polygon points="40,100 42,106 48,106 43,110 45,116 40,112 35,116 37,110 32,106 38,106" fill="white"/>
+  
+  <!-- Right star -->
+  <polygon points="160,100 162,106 168,106 163,110 165,116 160,112 155,116 157,110 152,106 158,106" fill="white"/>
+  
+  <!-- City skyline -->
+  <g fill="white">
+    <!-- Buildings -->
+    <rect x="60" y="80" width="12" height="35"/>
+    <rect x="65" y="75" width="2" height="5"/>
+    <rect x="68" y="78" width="2" height="2"/>
+    
+    <!-- Clock tower/church -->
+    <rect x="75" y="70" width="8" height="45"/>
+    <polygon points="79,65 76,70 82,70"/>
+    <rect x="77" y="72" width="4" height="6"/>
+    <circle cx="79" cy="75" r="1.5" fill="none" stroke="#1a1b23" stroke-width="0.5"/>
+    
+    <!-- Tall building -->
+    <rect x="86" y="65" width="10" height="50"/>
+    <rect x="88" y="67" width="2" height="2"/>
+    <rect x="91" y="67" width="2" height="2"/>
+    <rect x="88" y="72" width="2" height="2"/>
+    <rect x="91" y="72" width="2" height="2"/>
+    
+    <!-- Modern building -->
+    <rect x="99" y="75" width="14" height="40"/>
+    <rect x="101" y="77" width="2" height="3"/>
+    <rect x="105" y="77" width="2" height="3"/>
+    <rect x="109" y="77" width="2" height="3"/>
+    <rect x="101" y="82" width="2" height="3"/>
+    <rect x="105" y="82" width="2" height="3"/>
+    <rect x="109" y="82" width="2" height="3"/>
+    
+    <!-- Bridge -->
+    <path d="M 115 100 Q 125 85 135 100" fill="none" stroke="white" stroke-width="2"/>
+    <path d="M 115 100 Q 125 95 135 100" fill="none" stroke="white" stroke-width="1"/>
+    <line x1="120" y1="92" x2="120" y2="98" stroke="white" stroke-width="1"/>
+    <line x1="125" y1="89" x2="125" y2="96" stroke="white" stroke-width="1"/>
+    <line x1="130" y1="92" x2="130" y2="98" stroke="white" stroke-width="1"/>
+    
+    <!-- Water/base -->
+    <ellipse cx="100" cy="115" rx="45" ry="8" fill="white" opacity="0.3"/>
+  </g>
+</svg> 
