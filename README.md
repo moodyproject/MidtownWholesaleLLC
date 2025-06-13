@@ -82,23 +82,6 @@ src/
 └── index.css            # Global styles
 ```
 
-## Services
-
-Midtown Wholesale LLC specializes in:
-
-- 🍬 Candy & Snacks
-- 🧻 Everyday Essentials  
-- 🚬 Tobacco & Vapes
-- 👕 Apparel
-- 🛒 Convenience-Store Mix
-- 🚚 Local Delivery (Milwaukee area)
-
-## Contact Information
-
-- **Email:** midtownwholesalewi@gmail.com
-- **Phone:** (414) 828-8178
-- **Address:** 4830 S 10th St, Milwaukee, WI 53221
-- **Minimum Order:** $250
 
 ## Deployment
 
@@ -113,4 +96,4 @@ The production build creates static files in the `dist/` directory.
 
 ## License
 
-© 2024 Midtown Wholesale LLC. All rights reserved.
+© 2025 Midtown Wholesale LLC. All rights reserved.
